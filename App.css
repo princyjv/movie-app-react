@@ -1,0 +1,42 @@
+
+
+body {
+	background: #141414;
+	color: #ffffff;
+
+}
+
+.row {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.image-container > li{
+box-shadow: 0 0 1em rgba(146, 138, 138, 0.3);
+}
+.movie figcaption {
+  padding: 1em;
+}
+
+.movie__title {
+  font-size: 0.575rem;
+  font-weight: 200;
+  text-align: center;
+   margin: 0;
+   padding: 5px;
+}
+.footer{
+  background-color: black;
+  color:gray;
+ font-size: 12px;
+ text-align: center;
+ width: 100%;
+ line-height: 5px;
+  padding-top: 10px;
+ position:absolute;
+ left:0;
+
+}
